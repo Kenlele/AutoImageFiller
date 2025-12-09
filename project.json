@@ -1,8 +1,8 @@
 {
-  "name": "20251009_凱基_模版處理",
+  "name": "自動圖片存入資訊",
   "projectId": "c83729e1-0992-436d-83b7-ba9dd0cc6ef5",
   "description": "Blank Process",
-  "main": "PPT_診斷書_台大.xaml",
+  "main": "PPT.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.24.4]",
     "UiPath.Mail.Activities": "[1.24.16]",

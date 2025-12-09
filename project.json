@@ -1,0 +1,129 @@
+{
+  "name": "20251009_凱基_模版處理",
+  "projectId": "c83729e1-0992-436d-83b7-ba9dd0cc6ef5",
+  "description": "Blank Process",
+  "main": "PPT_診斷書_台大.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.24.4]",
+    "UiPath.Mail.Activities": "[1.24.16]",
+    "UiPath.Presentations.Activities": "[2.2.1]",
+    "UiPath.System.Activities": "[24.10.7]",
+    "UiPath.Testing.Activities": "[24.10.4]",
+    "UiPath.UIAutomation.Activities": "[24.10.13]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.10.16.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Photopea.xaml",
+      "uniqueId": "277a61ce-bee7-455e-a04f-d43eef8d89d0",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "PPT.xaml",
+      "uniqueId": "27730f1d-0b61-4ec2-b515-7e3fcb2fc170",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "PPT_住院_台北榮總.xaml",
+      "uniqueId": "da38cb9c-e617-4ef0-a252-c740880e8428",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "PPT_門診_台北榮總.xaml",
+      "uniqueId": "d87c825c-b3a7-490e-b325-9a99033fa42f",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "PPT_住院_長庚.xaml",
+      "uniqueId": "e9f07e6d-045d-4500-aa7d-4310c92de13e",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "PPT_門診_長庚.xaml",
+      "uniqueId": "9d819a29-8ec9-4cd1-83ac-b58a43c194b3",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "PPT_住院_台大.xaml",
+      "uniqueId": "593a08b5-8dba-49f3-b32f-d929fdbda136",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "PPT_門診_台大.xaml",
+      "uniqueId": "1159a771-ad9a-44e2-a047-982cc246779c",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "PPT_診斷書_台大.xaml",
+      "uniqueId": "2acbb3e2-51f8-401a-8e62-28f0d68ab225",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "PPT_診斷書_台北榮總.xaml",
+      "uniqueId": "05cc57b8-7901-41a4-8183-b8654c07e39b",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "PPT_診斷書_長庚.xaml",
+      "uniqueId": "b790455d-6cc4-4918-a8ee-bb7c0c0d92dd",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "24b29ae7-c959-421f-a636-53735fc8a043",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

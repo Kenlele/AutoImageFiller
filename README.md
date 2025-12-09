@@ -17,7 +17,6 @@
 
 ## 🧩 系統架構流程
 
-```text
 Excel 資料來源
         ↓
 讀取資料列
@@ -27,3 +26,40 @@ Excel 資料來源
 依欄位對應填入圖片指定位置
         ↓
 另存新圖片 (PNG)
+
+
+## 🧩 資料夾結構
+
+├── AutoFillImage.xaml                 # 主流程
+├── project.json             
+├── .screenshots/            
+├── .settings/
+├── .storage.runtime/
+└── .tmh/
+
+⚙️ 變數說明（使用前必須設定）
+
+請在 UiPath 專案中自行設定以下 3 個路徑變數：
+
+變數名稱	說明
+InputExcelPath	Excel 資料來源路徑
+TemplateImagePath	圖片模板路徑
+OutputImageFolder	輸出圖片的資料夾路徑
+
+## 🖼 圖片填值說明
+
+使用圖片模板作為底圖
+
+依 Excel 欄位資料對應填入：
+
+姓名
+
+編號
+
+日期
+
+最終輸出為：
+
+PNG 圖檔格式
+
+檔名可依 Excel 資料動態命名
